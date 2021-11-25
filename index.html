@@ -34,7 +34,22 @@
         <section class="content">
             <h2 class="hidden">Main contents</h2>
 
-            <section class="contentTop">
+            <section id="productSection"></section>
+            
+            <template id="car-models">
+                <section class="car-panel">
+                    <div class="p-avatar">
+                        <img src="" alt="">
+                    </div>
+                </section>
+
+                <h3 class="p-model">slug</h3>
+                <h3 class="p-price">slug</h3>
+                <h3 class="p-colour">slug</h3>
+                <p class="p-description">slug</p>
+            </template>
+
+            <section class="contentOne">
                 <section class="product">
                     <h3 class="hidden">Top Content Here</h3>
                     <img class="mini3door" src="images/mini3door.jpg" alt="Mini 3 Door">
@@ -49,21 +64,36 @@
                 </section>
             </section>
 
-            <section id="productSection"></section>
-            
-            <template id="car-models">
-                <section class="car-panel">
-                    <div class="p-avatar">
-                        <img src="" alt="">
-                    </div>
+            <section class="contentTwo">
+                <section class="product">
+                    <h3 class="hidden">Second Content Here</h3>
+                    <img class="miniConvertible" src="images/miniConvertible.jpg" alt="Mini 3 Door">
                 </section>
 
-                <h3 class="p-model">slug</h3>
-                <h3 class="p-price">slug</h3>
-                <p class="p-description">slug</p>
-            </template>
+                <section class="secondText">
+                    <h3>MINI Convertible</h3>
+                    <p class="price">From 31.090$</p>
+                    <p class="description">Meet the MINI Convertible – the most open-minded member of the MINI family. Featuring our signature 3-in-1 soft top roof and a refined interior with comfortable seating for four, it’s always ready for your next open-air adventure. And with a lively Twin Power Turbo engine that can hit 100 km/h in a blistering 6.3 seconds (in the John Cooper Works variant), it’s sure to deliver a few hair-raising thrills along the way. Discover the MINI Convertible today, and see the road in a whole new light.</p>
+
+                    <button class="productBtn">VIEW MORE</button>
+                </section>
+            </section>
+
+            <section class="contentThree">
+                <section class="product">
+                    <h3 class="hidden">Top Content Here</h3>
+                    <img class="miniCountryman" src="images/miniCountryman.jpg" alt="miniCountryman">
+                </section>
+
+                <section class="thirdText">
+                    <h3>MINI Countryman ALL 4</h3>
+                    <p class="price">From 31,490$$</p>
+                    <p class="description">The new MINI Countryman ALL4 is as daring and adventure minded as you are. Whether you prefer playing in the city or escaping it at the first opportunity, you’ll have the freedom and flexibility to go wherever your wandering mind takes you. Time to discover the new MINI Countryman and start writing your next adventure.</p>
+
+                    <button class="productBtn">VIEW MORE</button>
+                </section>
+            </section>
         </section>
-    </section>
     </main>
 
     <script src="js/main.js" type="module" defer></script>

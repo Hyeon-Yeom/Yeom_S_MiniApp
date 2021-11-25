@@ -107,7 +107,7 @@ body {
 
     /* Main Starts */
 
-    .contentTop {
+    .contentOne {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -154,8 +154,52 @@ body {
         transition: all .3s ease-out;
     }
 
-    .des {
+    .contentTwo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .miniConvertible {
+        width: 1000px;
+        padding: 100px 141px 50px 50px;
+    }
+
+    .secondText {
+        width: 1000px;
+        padding-top: 100px;
+        padding-left: 141px;
         color: white;
+    }
+
+    .secondText h3 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .contentThree {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .miniCountryman {
+        width: 1000px;
+        padding: 100px 50px 50px 141px;
+    }
+
+    .thirdText {
+        width: 1000px;
+        padding-top: 100px;
+        padding-right: 141px;
+        color: white;
+    }
+
+    .thirdText h3 {
+        font-size: 50px;
+        font-weight: bold;
     }
 
     /* Main Ends */

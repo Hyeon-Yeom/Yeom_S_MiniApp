@@ -14,7 +14,8 @@
 
                 buildCarInfos(data);
             })
-        .catch(error => console.error(error));
+
+        // .catch(error => console.error(error));
     }
 
     function buildCarInfos(info) {
@@ -32,6 +33,7 @@
             containers[3].textContent = info[car].description;
 
             theModels.appendChild(panel);
+            
         });
     }
 
