@@ -2,6 +2,20 @@ MMED 3039 Authoring 3
 Mini Cooper Makes and Models
 Seunghyeon Yeom(0975764)
 
-1. Plans
+Work Flow
 
-2. Difficulties
+1. Built data.json file and ajax function.
+=> Had an error(undefined textContent order in main.js file) and couldn't solve it yet. Still looking for a way to solve this error.
+
+=> Planed to show three different car model option bar as a navigation to see the content that web user selected.
+
+2. data.json
+=> Has listed up like: Model/Price/Colour/Description
+
+3. Built gulpfile
+=> Compiled scss files and compressed images from images folder to dist folder.
+
+4. Built Scss files
+=> Used it to designed the site (index.html file) and added reset.scss
+
+5. Add Vue.js file.
