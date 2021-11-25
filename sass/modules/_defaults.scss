@@ -1,0 +1,164 @@
+.hidden {
+    display: none;
+}
+
+/* General rules - scales images, videos to size of container */
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:link, a:visited { 
+	text-decoration:none; 
+}
+
+a:hover, a:active { 
+	text-decoration:none; 
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* General rules for elements end */
+
+/* Body tag starts */
+
+body {
+    font-family: $main-font;
+    color: $main-color;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: $main-size;
+
+    background-color: grey;
+
+    /* Top Nav Starts */
+
+    .navContainer {
+        background-color: white;
+        height: 150px;
+    }
+
+    .mainContainer {
+        background-color: black;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+    #topNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 141px;
+        margin-right: 141px;
+    }
+
+    .mainNav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mainNav li {
+        padding: 65px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .mainNav li:hover {
+        padding: 65px 30px;
+        // padding-top: 65px;
+        // padding-bottom: 65px;
+        background-color: black;
+        color: white;
+        transition: all .3s ease-out;
+    }
+
+    .selected {
+        padding: 65px 30px;
+        background-color: black;
+        color: white;
+    }
+
+    /* Top Nav Ends */
+
+    /* Main Starts */
+
+    .contentTop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mini3door {
+        padding: 100px 50px 50px 141px;
+    }
+
+    .text {
+        width: 1000px;
+        padding-top: 100px;
+        padding-right: 141px;
+        color: white;
+    }
+
+    .text h3 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .price {
+        font-size: 20px;
+        padding: 30px 30px 30px 0;
+    }
+
+    .description {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .productBtn {
+        margin-top: 50px;
+        font-size: 18px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+
+    .productBtn:hover {
+        font-style: italic;
+        transition: all .3s ease-out;
+    }
+
+    .des {
+        color: white;
+    }
+
+    /* Main Ends */
+}
+
+/* Body tag ends */

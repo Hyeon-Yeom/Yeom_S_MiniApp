@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Mini Cooper Makes and Models</title>
 </head>
 
 <body>
-    <main>
+    <h1 class="hidden">Mini Copper Makes and Models</h1>
+    
+    <section class="navContainer">
         <section id="topNav">
+            <h2 class="hidden">Main Nav</h2>
             <div class="logo">
-                <a href="index.html"><img src="" alt=""></a>
+                <a href="index.html"><img src="images/logo.png" alt="Mini Logo"></a>
             </div>
+
             <div class="mainNav">
                 <li><a class="selected">MODELS</a></li>
                 <li><a>TOOLS</a></li>
@@ -21,10 +28,42 @@
                 <li><a>PRE-OWNED</a></li>
             </div>
         </section>
+    </section>
 
+    <main class="mainContainer">
         <section class="content">
+            <h2 class="hidden">Main contents</h2>
+
+            <section class="contentTop">
+                <section class="product">
+                    <h3 class="hidden">Top Content Here</h3>
+                    <img class="mini3door" src="images/mini3door.jpg" alt="Mini 3 Door">
+                </section>
+
+                <section class="text">
+                    <h3>MINI 3 DOORS</h3>
+                    <p class="price">From 24,490$</p>
+                    <p class="description">Expressive and self assured, the new MINI 3 door is a true original – combining 60+ years of convention-defying ideas with modern touches and practical features. Iconic by design and urban by nature, it’s made to stand out as you uncover new corners of your city. And with a distinct go-kart feel and plenty of power to boot, you’re sure to find something exciting at every turn.</p>
+
+                    <button class="productBtn">VIEW MORE</button>
+                </section>
+            </section>
+
+            <section id="productSection"></section>
             
+            <template id="car-models">
+                <section class="car-panel">
+                    <div class="p-avatar">
+                        <img src="" alt="">
+                    </div>
+                </section>
+
+                <h3 class="p-model">slug</h3>
+                <h3 class="p-price">slug</h3>
+                <p class="p-description">slug</p>
+            </template>
         </section>
+    </section>
     </main>
 
     <script src="js/main.js" type="module" defer></script>
