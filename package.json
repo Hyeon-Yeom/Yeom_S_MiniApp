@@ -1,0 +1,29 @@
+{
+    "name": "miniapp-ysh",
+    "version": "1.0.0",
+    "description": "mini cooper makes and modules",
+    "main": "gulpfile.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Hyeon-Yeom/Yeom_S_MiniApp.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Hyeon-Yeom/Yeom_S_MiniApp/issues"
+    },
+    "homepage": "https://github.com/Hyeon-Yeom/Yeom_S_MiniApp#readme",
+    "dependencies": {
+      "gulp": "^4.0.2",
+      "gulp-install": "^1.1.0"
+    },
+    "devDependencies": {
+      "gulp-imagemin": "^8.0.0",
+      "gulp-sass": "^5.0.0",
+      "sass": "^1.43.5"
+    }
+  }
